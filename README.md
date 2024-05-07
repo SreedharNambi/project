@@ -62,6 +62,7 @@ $ npm run test:cov
 ## Database Schema
   ```bash
     # Users Schema
+
       # CREATE TABLE users(
       #    id UUID PRIMARY KEY,
       #    name VARCHAR(50),
@@ -70,12 +71,13 @@ $ npm run test:cov
       # );
 
     # Reward History Schema
+    
       # CREATE TABLE reward_history(
-      # reward_id UUID PRIMARY KEY,
-      # reward_points INTEGER,
-      # date VARCHAR(20),
-      # given_by_id UUID,
-      # given_to_id UUID
+      #   reward_id UUID PRIMARY KEY,
+      #   reward_points INTEGER,
+      #   date VARCHAR(20),
+      #   given_by_id UUID,
+      #   given_to_id UUID
       # );
   ```
 
