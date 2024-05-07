@@ -58,6 +58,29 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+
+## Database Schema
+  ```bash
+    # Users Schema
+
+       CREATE TABLE users(
+          id UUID PRIMARY KEY,
+          name VARCHAR(50),
+          p5_points INTEGER,
+          reward_points INTEGER
+       );
+
+    # Reward History Schema
+    
+       CREATE TABLE reward_history(
+           reward_id UUID PRIMARY KEY,
+           reward_points INTEGER,
+           date VARCHAR(20),
+           given_by_id UUID,
+           given_to_id UUID
+       );
+  ```
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
