@@ -72,13 +72,13 @@ $ npm run test:cov
 
     # Reward History Schema
     
-      # CREATE TABLE reward_history(
-      #   reward_id UUID PRIMARY KEY,
-      #   reward_points INTEGER,
-      #   date VARCHAR(20),
-      #   given_by_id UUID,
-      #   given_to_id UUID
-      # );
+       CREATE TABLE reward_history(
+           reward_id UUID PRIMARY KEY,
+           reward_points INTEGER,
+           date VARCHAR(20),
+           given_by_id UUID,
+           given_to_id UUID
+       );
   ```
 
 ## Support
