@@ -63,12 +63,12 @@ $ npm run test:cov
   ```bash
     # Users Schema
 
-      # CREATE TABLE users(
-      #    id UUID PRIMARY KEY,
-      #    name VARCHAR(50),
-      #    p5_points INTEGER,
-      #    reward_points INTEGER
-      # );
+       CREATE TABLE users(
+          id UUID PRIMARY KEY,
+          name VARCHAR(50),
+          p5_points INTEGER,
+          reward_points INTEGER
+       );
 
     # Reward History Schema
     
